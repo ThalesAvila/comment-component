@@ -1,4 +1,4 @@
-// Import React and ReactDOM Libraries
+// Dependências
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -6,11 +6,9 @@ import ReactDOM from 'react-dom';
 const App = () => {
   return (
     <div>
-      <label htmlFor="name">Enter name:</label>
-      <input id="name" type="text"/>
-      <button type="submit" style={{backgroundColor:'blue', color: 'white'}}>Submit</button>
+      Hi there!
     </div>
   )
 }
-// Render the React Component
+// Render
 ReactDOM.render(<App />, document.getElementById('root'));
